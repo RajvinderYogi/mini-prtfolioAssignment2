@@ -3,13 +3,13 @@
   "authors": [
     "RajvinderYogi <rajvinderyogi@yahoo.com>"
   ],
-  "description": "\"First assignment Client side scripting\"",
+  "description": "\"Second assignment Client side scripting\"",
   "main": "",
   "keywords": [
     "Javascript"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/RajvinderYogi/mini-prtfolioAssignment2",
   "private": true,
   "ignore": [
     "**/.*",

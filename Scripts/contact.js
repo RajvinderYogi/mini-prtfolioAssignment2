@@ -7,8 +7,22 @@ This file includes all the styling properties which makes this website attractiv
 -----------------------------------------------------------------------------------------------------------*/
 
 // JAVA Script Here*
+"use strict";
+(fuction(){
+
+console.info("Page Title: " + document.title);
 
 // Contact page heading
-var ContactMe = document.getElementById("ContactMe");
-var myHeading="Contact Me";
+let ContactMe = document.getElementById("ContactMe");
+let myHeading="Contact Me";
 ContactMe.textContent=myHeading;
+
+
+let submit_btn =document.getElementById("submit");
+
+submit_btn.addEventListener("Click", fuction(event){
+event.preventDefault();
+
+});
+
+})();

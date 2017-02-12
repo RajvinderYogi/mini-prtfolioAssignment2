@@ -125,7 +125,14 @@ h3.contact{
 .btn{
     background-color: #2BA163;
     color: white;
-    margin-left: 400px;
+    margin-left: 320px;
+    }
+.btn#reset{
+    background-color:orangered;
+    color: white;
+    margin-top: 0px;
+    margin-left: 10px;
+
     }
 /* Contact Page Style ends here*/
 
