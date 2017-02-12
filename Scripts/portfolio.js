@@ -8,6 +8,9 @@ This file includes all the styling properties which makes this website attractiv
 
 // JAVA Script Here
 "use strict";
+//IIFE 
+(function(){
+
 
 switch(document.title){
 case"Biography::Raj Yogi":
@@ -89,8 +92,29 @@ console.info("Page Title: " + document.title);
 let ContactMe = document.getElementById("ContactMe");
 let myHeading="Contact Me";
 ContactMe.textContent=myHeading;
+
+
+submit.addEventListener("click",function display(event){
+
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let mobile = document.getElementById("mobile").value;
+let message = document.getElementById("message").value;
+
+
+alert("Hi! Information saved. check console");
+event.preventDefault();
+
+console.log(name);
+console.log(email);
+console.log(mobile);
+console.log(message);
+
+});
+
 break;
 
 }
+})();
 
 
