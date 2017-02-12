@@ -9,6 +9,8 @@ This file includes all the styling properties which makes this website attractiv
 // JAVA Script Here
 "use strict";
 
+switch(document.title){
+case"Biography::Raj Yogi":
 // Name heading content to home page
 var MyName = document.getElementById("MyName");
 var myContent= "RAJVINDER SINGH YOGI";
@@ -28,11 +30,10 @@ var Biography = document.getElementById("BioPara");
 var myContent = "I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; I build websites that delight and inform. I do it well. I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. I moved to Alberta from India a year ago; have been studying and learning the language at Gerogian College in Barrie for the time being.";
 //step3- assign the variable with your content to the refrence variable
 BioPara.textContent = myContent;
+break;
 
 
-
-
-
+case "Portfolio::Raj Yogi":
 //project1 portfolio content starts
 var headingProject1 = document.getElementById("headingProject1");
 var ContentPortfolio="Live Website";
@@ -78,3 +79,18 @@ var project3Para = document.getElementById("project3Para");
 var ContentPortfolio="I took this picture nearby Bell fountain. This picture is one of the finest Photography done by by me. It was a raining when I took this picture. This picture got reward from some professional photogrphers too. ";
 project3Para.textContent=ContentPortfolio;
 //project3 portfolio content ends
+break;
+
+case"Contact Me::Raj Yogi":
+
+console.info("Page Title: " + document.title);
+
+// Contact page heading
+let ContactMe = document.getElementById("ContactMe");
+let myHeading="Contact Me";
+ContactMe.textContent=myHeading;
+break;
+
+}
+
+
