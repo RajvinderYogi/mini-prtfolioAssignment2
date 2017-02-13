@@ -101,8 +101,6 @@ let email = document.getElementById("email").value;
 let mobile = document.getElementById("mobile").value;
 let message = document.getElementById("message").value;
 
-
-alert("Hi! Information saved. check console");
 event.preventDefault();
 
 console.log(name);
